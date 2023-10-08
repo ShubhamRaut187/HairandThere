@@ -1,0 +1,47 @@
+.hm_main{
+    background-image: url('https://www.mygreentrends.in/wp-content/uploads/2020/09/women-banner.jpg');
+    width: 99.8%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid black; */
+    height: 500px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.hm_main>h1{
+    margin: 0;
+    color: whitesmoke;
+    width: 50%;
+    text-align: center;
+}
+.hm_quote > button{
+    width: 180px;
+    height: 40px;
+    color: white;
+    /* background:#fff; */
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    transition: transform 1s;
+}
+.hm_quote > button:hover{
+    transform: scale(1.5);
+}
+@media screen and (min-width:320px) and (max-width:767px){
+    .hm_main{
+        background-image: url('https://img.freepik.com/premium-photo/girls-are-attending-make-up-masterclass-they-are-training-model-how-perfect-makeup_360066-24921.jpg');
+        background-size: cover;
+        height: 300px;
+    }
+    .hm_main>h1{
+        font-size: 20px;
+    }
+    .hm_quote > button{
+        font-size: 14px;
+    }
+}
