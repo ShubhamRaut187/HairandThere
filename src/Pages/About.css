@@ -1,0 +1,95 @@
+.ab_heading_div{
+    height: 200px;
+    /* border: 1px solid red; */
+    background-image: url('https://www.nicolerosesalon.com/images/nicolerosesalon-home-services.png');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    
+}
+.ab_headings{
+    text-align: center;
+    /* text-decoration: dashed; */
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 44px;
+    color: white;
+}
+.ab_main{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 60px;
+    margin: auto;
+    width: 95%;
+   
+}
+.ab_main_img{
+    width: 50%;
+    /* border: 2px solid black; */
+    /* padding: 20px; */
+}
+.ab_main_img > img{
+    width: 100%;
+}
+.ab_main_para{
+    width: 50%;
+    /* background-color: black; */
+    padding: 25px;
+}
+.ab_main_para > p{
+    text-align: justify;
+    font-weight: 600;
+    /* color:white; */
+}
+.story_head{
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+.ab_fsalon_main{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #1f1f1fff;
+    border-bottom: 5px solid palevioletred;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.ab_fsalon_main_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.ab_fsalon_para_div{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.ab_fsalon_para_div > p{
+    text-align: justify;
+    color: white;
+}
+.ab_fsalon_img_div{
+    width: 40%;
+    border: 15px solid white;
+    
+}
+.ab_fsalon_img_div > img{
+    width: 100%;
+    height: 100%;
+}
+.word_style{
+    font-size: 36px;
+    text-decoration: overline;
+}

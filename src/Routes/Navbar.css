@@ -17,6 +17,8 @@ li{
     background-color: #111516ff;
     padding: 10px;
     margin: 0;
+    position: sticky;
+    top: 0;
 }
 .brand{
     width: 40%;

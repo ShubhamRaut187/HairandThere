@@ -32,6 +32,64 @@
 .hm_quote > button:hover{
     transform: scale(1.5);
 }
+.hm_specialities{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 89%;
+    /* height: 300px; */
+    /* border: 2px solid black; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.hm_specialities > div{
+    /* border: 2px solid black; */
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.speciality_one{
+    background-image: url('https://www.constantcontact.com/blog/wp-content/uploads/2021/09/Social-Hair-Salon-Promotion-Ideas.jpg');
+    background-size: 113%;
+}
+.speciality_one > h2{
+    color: white;
+    text-transform: uppercase;
+}
+.speciality_two{
+    background-image: url('https://www.tricociuniversity.edu/wp-content/uploads/2021/09/hairstylist-scaled.jpeg');
+    background-size: 100%;
+}
+.speciality_two > h2{
+    color: white;
+    text-transform: uppercase;
+}
+.speciality_three > h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.speciality_three{
+    background-image: url('https://garbossalons.com/wp-content/uploads/2020/09/730A2005-1-1-scaled.jpg');
+    background-size: 100%;
+    
+}
+.hm_headings{
+    text-align: center;
+    /* text-decoration: dashed; */
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
 @media screen and (min-width:320px) and (max-width:767px){
     .hm_main{
         background-image: url('https://img.freepik.com/premium-photo/girls-are-attending-make-up-masterclass-they-are-training-model-how-perfect-makeup_360066-24921.jpg');
@@ -43,5 +101,30 @@
     }
     .hm_quote > button{
         font-size: 14px;
+    }
+    .hm_specialities{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .speciality_one{
+        background-size:cover;
+    }
+    .speciality_two{
+       background-size: cover;
+       
+    }
+    .speciality_three{
+        background-size: cover;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .speciality_one{
+        background-size:cover;
+    }
+    .speciality_two{
+       background-size: 170%;
+       
+    }
+    .speciality_three{
+        background-size: 170%;
     }
 }
