@@ -25,8 +25,9 @@
     align-items: center;
     justify-content: space-around;
     column-gap: 60px;
-    margin: auto;
+    margin: 20px auto;
     width: 95%;
+    /* flex-wrap: wrap; */
    
 }
 .ab_main_img{
@@ -71,6 +72,7 @@
     width: 100%;
     /* border: 2px solid red; */
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .ab_fsalon_para_div{
     width: 50%;
@@ -92,4 +94,26 @@
 .word_style{
     font-size: 36px;
     text-decoration: overline;
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .ab_main{
+        flex-wrap: wrap;
+    }
+    .ab_main_img{
+        width: 98%;
+    }
+    .ab_main_para{
+        width: 98%;
+    }
+    .ab_fsalon_para_div{
+        width: 90%;
+    }
+    .ab_fsalon_img_div{
+        width: 75%;
+        margin-bottom: 15px;
+    }
+    .story_head{
+        margin-left: 15px;
+    }
 }

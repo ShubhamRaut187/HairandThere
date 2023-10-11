@@ -1,0 +1,53 @@
+.Founders_main{
+    /* border:2px solid red; */
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    align-items: center;
+    padding: 15px;
+}
+.founders_heading{
+    /* margin-left: 20px; */
+    font-size: 36px;
+    font-weight: 900;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 30px;
+}
+.Founders_main > div{
+    /* border:2px solid red; */
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 10px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.founder_one{
+    background-image: url('https://media.istockphoto.com/id/1454150252/photo/a-student-working-as-a-hairdresser-with-a-dummy.webp?b=1&s=170667a&w=0&k=20&c=gay16i1U8DgUcZDoWM-q8-yLSc7k8xq666Ks8hGu0Xw=');
+}
+.founder_two{
+    background-image: url('https://st2.depositphotos.com/7140920/48155/i/450/depositphotos_481553512-stock-photo-hairdresser-holds-brush-iron-straighten.jpg');
+}
+.founder_three{
+    background-image: url('https://media.istockphoto.com/id/1135612910/photo/hair-salon.jpg?s=170667a&w=0&k=20&c=ro_qT50WX5ALmAYph5TNkbAobnwQW3XlgUhZ4JLQIy4=');
+}
+.founder_four{
+    background-image: url('https://img.freepik.com/premium-photo/hairstylist-trimming-hair-customer-beauty-salon_53876-137866.jpg');
+}
+.founder_name{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    text-decoration: overline;
+    color: white;
+}
+@media screen and (min-width:320px) and (max-width:767px){
+    .Founders_main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

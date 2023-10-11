@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+import Founders from '../Components/Founders'
 function About(props) {
     return (
         <div>
@@ -37,6 +38,7 @@ function About(props) {
                     </div>
                </div>
             </div>
+            <Founders/>
         </div>
     );
 }
