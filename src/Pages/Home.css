@@ -89,6 +89,37 @@
     text-transform: uppercase;
     font-weight: 900;
 }
+.hm_products_main{
+    width: 95%;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hm_products_img_div{
+    width: 40%;
+    height: 600px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.hm_products_img_div > img{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+}
+.hm_products_info_div{
+    width: 50%;
+}
+.hm_products_info_div > p{
+    text-align: justify;
+    font-weight: 500;
+}
+.hm_words_style{
+    font-size: 36px;
+    text-decoration: overline;
+}
 
 @media screen and (min-width:320px) and (max-width:767px){
     .hm_main{
