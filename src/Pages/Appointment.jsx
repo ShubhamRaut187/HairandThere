@@ -1,9 +1,9 @@
 import React from 'react';
-
+import ReviewsSlider from '../Components/ReviewsSlider';
 function Appointment(props) {
     return (
         <div>
-            <h1>Appointment</h1>
+            
         </div>
     );
 }

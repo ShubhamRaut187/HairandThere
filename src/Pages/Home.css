@@ -96,6 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap-reverse;
 }
 .hm_products_img_div{
     width: 40%;
@@ -145,6 +146,19 @@
     }
     .speciality_three{
         background-size: cover;
+    }
+    .hm_products_main{
+        flex-wrap: wrap;
+    }
+    .hm_products_img_div{
+        width: 95%;
+        height: 500px;
+    }
+    .hm_products_img_div > img{
+        height: 500px;
+    }
+    .hm_products_info_div{
+        width: 95%;
     }
 }
 @media screen and (min-width:768px) and (max-width:1024px){

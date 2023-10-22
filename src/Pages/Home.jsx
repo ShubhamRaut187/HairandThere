@@ -24,6 +24,7 @@ function Home(props) {
                 </div>
             </div>
             <h1 className='hm_headings'>Our Products</h1>
+            
             <div className='hm_products_main'>
                 <div className='hm_products_img_div'>
                     <img src="https://img.freepik.com/premium-photo/cosmetic-bottles-flat-layed-blank-label-branding-mock-up-natural-beauty-product-concept-ai-generated_914391-3553.jpg" alt="products" />
