@@ -172,4 +172,17 @@
     .speciality_three{
         background-size: 170%;
     }
+    .hm_products_main{
+        flex-wrap: wrap;
+    }
+    .hm_products_img_div{
+        width: 95%;
+        height: 500px;
+    }
+    .hm_products_img_div > img{
+        height: 500px;
+    }
+    .hm_products_info_div{
+        width: 95%;
+    }
 }

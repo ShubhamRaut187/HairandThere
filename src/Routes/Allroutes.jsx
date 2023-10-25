@@ -4,7 +4,7 @@ import Appointment from '../Pages/Appointment';
 import Services from '../Pages/Services';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
-import Gallery from '../Pages/Gallery';
+import Products from '../Pages/Products';
 import Stores from '../Pages/Stores';
 import {Route,Routes} from 'react-router-dom'
 function Allroutes(props) {
@@ -17,7 +17,7 @@ function Allroutes(props) {
                 <Route path='/stores' element={<Stores/>}/>
                 <Route path='/contact' element={<Contact/>}/>
                 <Route path='/about' element={<About/>}/>
-                <Route path='/gallery' element={<Gallery/>}/>
+                <Route path='/products' element={<Products/>}/>
             </Routes>
         </div>
     );
