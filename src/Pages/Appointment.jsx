@@ -1,9 +1,9 @@
 import React from 'react';
-import ReviewsSlider from '../Components/ReviewsSlider';
+import PageHeading from '../Components/PageHeading';
 function Appointment(props) {
     return (
         <div>
-            
+            <PageHeading heading={"Book Appointment"}/>
         </div>
     );
 }

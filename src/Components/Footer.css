@@ -69,6 +69,9 @@
         width: 100%;
         align-items: flex-start;
     }
+    .Foot_main{
+        width: 90%;
+    }
 }
 
 

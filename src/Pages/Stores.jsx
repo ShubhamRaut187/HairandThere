@@ -1,6 +1,7 @@
 import React from 'react';
 import './Stores.css'
 import StoreCard from '../Components/StoreCard';
+import PageHeading from '../Components/PageHeading';
 function Stores(props) {
     let stores=[
         {
@@ -37,9 +38,7 @@ function Stores(props) {
     ]
     return (
         <div>
-            <div className='stores_heading'>
-                <h1>Our Stores</h1>
-            </div>
+            <PageHeading heading={"Stores"}/>
             <div className='stores_parent'>
                 {
                     stores.map((elem,index)=>{

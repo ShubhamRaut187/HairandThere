@@ -1,12 +1,11 @@
 import React from 'react';
 import './About.css'
 import Founders from '../Components/Founders'
+import PageHeading from '../Components/PageHeading';
 function About(props) {
     return (
         <div>
-            <div className='ab_heading_div'>
-                <h1 className='ab_headings'>About Us</h1>
-            </div>
+            <PageHeading heading={"About Us"}/>
             <div className='ab_main'>
                 <div className='ab_main_img'>
                     <img src="https://4.bp.blogspot.com/-qUDT_UeahaI/Uh9NzWhOi8I/AAAAAAAAAR4/JqmzoArMWKY/s1600/Headquarters-Hair-salon-exterior-2.jpg" alt="salon" />

@@ -1,0 +1,17 @@
+.page_heading_main{
+    height: 200px;
+    background-image: url('https://www.nicolerosesalon.com/images/nicolerosesalon-home-services.png');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.page_heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-bottom: 0;
+    font-size: 44px;
+    color: white;
+}
