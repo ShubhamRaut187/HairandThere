@@ -69,6 +69,18 @@ function Services(props) {
                     </div>
                 </div>
                 <div className='services_card_main'>
+                    <div style={{backgroundImage:"url(https://t4.ftcdn.net/jpg/03/21/68/65/360_F_321686568_cSXVysoKOFTLljosiZkFbjhR2qb4uLFM.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
+                    <h2 className='services_card_heading'>Makeup</h2>
+                    <h4 className='services_card_description'>Starting from £100</h4>
+                    </div>
+                </div>
+                <div className='services_card_main'>
+                    <div style={{backgroundImage:"url(https://static.punjabkesari.in/multimedia/2023_5image_11_01_381865397rty.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
+                    <h2 className='services_card_heading'>Bridal Grooming</h2>
+                    <h4 className='services_card_description'>Starting from £200</h4>
+                    </div>
+                </div>
+                <div className='services_card_main'>
                     <div style={{backgroundImage:"url(https://aruspa.com/wp-content/uploads/2020/01/facial-1.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
                     <h2 className='services_card_heading'>Facial Treatment</h2>
                     <h4 className='services_card_description'>Starting from £60</h4>
@@ -84,18 +96,6 @@ function Services(props) {
                     <div style={{backgroundImage:"url(https://www.hotstone-spa.com/wp-content/uploads/2018/06/MASAGE.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
                     <h2 className='services_card_heading'>Body Massage</h2>
                     <h4 className='services_card_description'>Starting from £70</h4>
-                    </div>
-                </div>
-                <div className='services_card_main'>
-                    <div style={{backgroundImage:"url(https://t4.ftcdn.net/jpg/03/21/68/65/360_F_321686568_cSXVysoKOFTLljosiZkFbjhR2qb4uLFM.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
-                    <h2 className='services_card_heading'>Makeup</h2>
-                    <h4 className='services_card_description'>Starting from £100</h4>
-                    </div>
-                </div>
-                <div className='services_card_main'>
-                    <div style={{backgroundImage:"url(https://static.punjabkesari.in/multimedia/2023_5image_11_01_381865397rty.jpg)",backgroundSize:'160%',backgroundRepeat:"no-repeat"}}>
-                    <h2 className='services_card_heading'>Bridal Grooming</h2>
-                    <h4 className='services_card_description'>Starting from £200</h4>
                     </div>
                 </div>
                 <div className='services_card_main'>

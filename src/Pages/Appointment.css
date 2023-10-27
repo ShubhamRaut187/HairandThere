@@ -1,0 +1,8 @@
+.appointment_main{
+    width: 95%;
+    border: 2px solid red;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
