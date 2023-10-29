@@ -24,7 +24,7 @@ function Navbar(props) {
                 <li className='nav_item'><Link to='/services' className='nav_link'>Services</Link></li>
                 <li className='nav_item'><Link to='/products' className='nav_link'>Products</Link></li>
                 <li className='nav_item'><Link to='/stores' className='nav_link'>Stores</Link></li>
-                <li className='nav_item'><Link to='contact' className='nav_link'>Contact</Link></li>
+                <li className='nav_item'><Link to='loginsignup' className='nav_link'>Login</Link></li>
                 <li className='nav_item'><Link to='/appointment'  className='nav_link'>Book Appointment</Link></li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>
