@@ -1,12 +1,30 @@
 import React from 'react';
+import PageHeading from "../Components/PageHeading"
+import ProductSortFilter from '../Components/ProductSortFilter';
+import ProductCard from '../Components/ProductCard';
 import './Products.css'
+
+
 function Products(props) {
 //    let [CategoryName,SetCategoryName] = useState("Our Products")
 
     return (
         <div>
-            <div className='products_heading_div'>
-                <h1 className='products_headings'>Our Products</h1>
+           <PageHeading heading="Our Products" />
+            <ProductSortFilter />
+            <div className='product_cards_parent'>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
+                <ProductCard/>
             </div>
         </div>
     );

@@ -1,8 +1,109 @@
 .appointment_main{
-    width: 95%;
-    border: 2px solid red;
+    width: 80%;
+    /* border: 2px solid red; */
     margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.appointment_sub1{
+    height: 550px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1669675936121-6d3d42244ab5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2Fsb258ZW58MHx8MHx8fDA%3D");
+    background-size: 100%;
+}
+.appointment_sub1 > h1{
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+}
+.appointment_sub1 > p{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.appointment_sub2{
+    height: 550px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid green; */
+}
+.appointment_sub2 > h2{
+    margin-bottom: 0px;
+}
+.appointment_sub2 > p{
+    margin-top: 0px;
+    text-align: center
+}
+.appointment_form{
+    width: 80%;
+    /* border: 2px solid violet; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+    gap: 10px;
+}
+.appointment_form > div{
+    /* border: 2px solid orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100px;
+}
+.appointment_form_input_field{
+    height: 30px;
+    width: 80%;
+    border-left: 5px solid #383838ff;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    background-color: #f7f7f7ff;
+    /* padding: 5px; */
+    font-weight: 500;
+}
+.appointment_form_submit_btn{
+    width: 60%;
+    height: 30px;
+    border: none;
+    background-color: #383838ff;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
+
+
+/* Media */
+/* Small Screens */
+@media screen and (min-width:320px) and (max-width:767px){
+    .appointment_main{
+        width: 90%;
+        flex-direction: column;
+    }
+    .appointment_sub1{
+        width: 100%;
+    }
+    .appointment_sub2{
+        width: 100%;
+        height: 650px;
+    }
+    .appointment_form{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* Medium Screens */
+@media screen and (min-width:768px) and (max-width:1024px){
+    .appointment_main{
+        width: 95%;
+    }
 }
