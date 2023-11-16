@@ -48,6 +48,8 @@
 
 .slick-slide > div{
     margin: 0 20px;
+    /* border: 2px solid green;
+    z-index: -1; */
    
 }
 .slick-slide{
@@ -62,4 +64,8 @@
         /* top: calc(200px + (10vw * -1)); */
         /* z-index: -1; */
       
+}
+.slider_comp > div{
+    /* border: 2px solid green; */
+    z-index: -1;
 }

@@ -1,12 +1,41 @@
 import React from 'react';
 import PageHeading from './PageHeading'
-
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
+import {useDispatch} from 'react-redux'
+import { handleLogin } from '../Redux/action';
 import './LoginForm.css'
 function LoginForm({WantSignUp,SetSignUp}) {
+    let[Useremail,SetUseremail] = useState("");
+    let[Userpassword,SetUserpassword] = useState("");
+    let Navigate = useNavigate();
+    let dispatch = useDispatch();
     let ShowSignUp = () => {
         if(!WantSignUp){
             SetSignUp(true);
         }
+    }
+    let AuthenticateUser=(event)=>{
+        event.preventDefault();
+        fetch(`http://localhost:8000/login`,{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify({
+                Email:Useremail,
+                Password:Userpassword
+            })
+        }).then((response)=>{
+            return response.json();
+        }).then((response)=>{
+            console.log(response);
+           dispatch(handleLogin(response));
+           alert(response.Message)
+           Navigate('/')
+        }).catch((error)=>{
+            console.log(error);
+        })
     }
     return (
         <div>
@@ -20,9 +49,9 @@ function LoginForm({WantSignUp,SetSignUp}) {
             <div className='login_form_div'>
                 <h2>Login To Your Account</h2>
                 <p>Please login to your account to book your next appointment or explore our new offerings. We are here to pamper you, make you feel beautiful, and ensure every visit is a rejuvenating escape.</p>
-                <form className='login_form'>
-                    <input type="email" placeholder='Enter Your Email' className='login_form_input_field'/>
-                    <input type="password" placeholder='Enetr Your Password' className='login_form_input_field'/>
+                <form className='login_form' onSubmit={AuthenticateUser}>
+                    <input type="email" placeholder='Enter Your Email' className='login_form_input_field' onChange={(event)=>{SetUseremail(event.target.value)}}/>
+                    <input type="password" placeholder='Enetr Your Password' className='login_form_input_field'onChange={(event)=>{SetUserpassword(event.target.value)}}/>
                     <input type="submit" className='login_form_submit_btn '/>
                     
                 </form>
